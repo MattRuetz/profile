@@ -33,11 +33,13 @@ a:hover {
 
 .bottom-cloud{
     position: absolute;
+    width: 9%;
 }
 
 .top-cloud{
     position: absolute;
     right: 40%;
+    width: 10%;
 }
 
 .prof-pic {
@@ -51,6 +53,7 @@ a:hover {
 
 .mountain {
     position: relative;
+    width: 50%;
     z-index: 1;
     
 }
@@ -61,7 +64,8 @@ a:hover {
     position: absolute;
     left: 43%;
     top: 45%;
-    width: 300px;
+    width: 25%;
+    height: 25%;
     border-radius: 100%;
     z-index: 0;
 }
