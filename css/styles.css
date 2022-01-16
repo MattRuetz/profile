@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&family=Great+Vibes&family=Lobster&family=Questrial&display=swap');
+
+body{
+    margin: 0px;
+    text-align: center;
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 14pt;
+    color: #263528;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #FFF1AF;
+}
+
+.head-container{
+    background-color: #66806A;
+    margin: 0px;
+    position: relative;
+    padding: 100px;
+}
+
+.middle-container{
+    background-color: #B4C6A6;
+}
+
+.bottom-container{
+    background-color: #FFC286;
+}
+
+.bottom-cloud{
+    position: absolute;
+}
+
+.top-cloud{
+    position: absolute;
+    right: 40%;
+}
+
+.prof-pic {
+    margin-top: 20px;
+    border-radius: 100%;
+    border-style:dashed;
+    border-width: 5px;
+    border-color: #FFF1AF;
+    width: 10%;
+}
+
+.mountain {
+    position: relative;
+    z-index: 1;
+    
+}
+
+.sun {
+    background-color: #FFC286;
+    height: 300px;
+    position: absolute;
+    left: 43%;
+    top: 45%;
+    width: 300px;
+    border-radius: 100%;
+    z-index: 0;
+}
+
+.skill-row {
+    width: 50%;
+    position: relative;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.skills-img{
+    width: 20%;
+    margin-right: 30px;
+    float: left;
+}
+
+.skills-img2{
+    width: 20%;
+    margin-left: 30px;
+    float: right;
+}
+
+.btn {
+    background: #FFF1AF;
+    background-image: -webkit-linear-gradient(top, #FFF1AF, #FFC286);
+    background-image: -moz-linear-gradient(top, #FFF1AF, #FFC286);
+    background-image: -ms-linear-gradient(top, #FFF1AF, #FFC286);
+    background-image: -o-linear-gradient(top, #FFF1AF, #FFC286);
+    background-image: linear-gradient(to bottom, #FFF1AF, #FFC286);
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 10px;
+    font-family: Georgia;
+    color: #66806A;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #fff7d6;
+    background-image: -webkit-linear-gradient(top, #fff7d6, #ffe1c4);
+    background-image: -moz-linear-gradient(top, #fff7d6, #ffe1c4);
+    background-image: -ms-linear-gradient(top, #fff7d6, #ffe1c4);
+    background-image: -o-linear-gradient(top, #fff7d6, #ffe1c4);
+    background-image: linear-gradient(to bottom, #fff7d6, #ffe1c4);
+    text-decoration: none;
+}
+
+.footer-link {
+    padding: 10px 20px 10px 20px;
+}
+
+.copyright-line {
+    padding: 10px 20px 40px 20px;
+}
+  
+hr {
+    border-color: #FFF1AF;
+    border-style: dotted;
+    border-width: 10px;
+    border-bottom: none;
+    height: 0px;
+    margin: 100px auto 100px auto;
+    width: 4%;
+}
+
+h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 6em;
+    line-height: 8rem;
+    color: #B4C6A6;
+}
+
+h2 {
+    line-height: 3.5rem;
+    font-family: 'Lobster', cursive;
+    font-weight: normal;
+    font-size: 3rem;
+    color: #66806A;
+}
+
+h3 {
+    font-family: 'Questrial', sans-serif;
+}
+
+#name-line{
+    margin: 50px auto 0 auto;
+    font-size: 6rem;
+}
+
+#desc-line{
+    color: #FFF1AF;
+    font-size: 30px;
+    font-family: 'Chakra Petch', sans-serif;
+    margin: 0px;
+}
